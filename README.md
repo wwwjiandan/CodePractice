@@ -1,4 +1,4 @@
-speakcall
+CodePractice
 =========
 
-speakcall can speak the contact name he number when incomming call
+CodePractice use to verify algorithm implementation and Api function

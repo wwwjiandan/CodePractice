@@ -17,14 +17,14 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Log.d(TAG, "onCreate");
 
-        ((TextView)findViewById(R.id.second)).setText("Second");
+        /*((TextView)findViewById(R.id.second)).setText("Second");
 
         findViewById(R.id.back).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 finish();
             }
-        });
+        });*/
     }
 
     @Override

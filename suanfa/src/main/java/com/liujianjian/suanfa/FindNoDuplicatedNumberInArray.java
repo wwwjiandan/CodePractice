@@ -47,20 +47,19 @@ public class FindNoDuplicatedNumberInArray {
 
 
     public static void main(String[] args) {
-        int array [] = {0,1,1,2,2,3,3,4,4};
-        int array1 [] = {1,1,2,2,3,4,4,5,5};
-        int array2 [] = {1,1,2,2,4,4,5,5,6};
+		int array[] = {0, 1, 1, 2, 2, 3, 3, 4, 4};
+		int array1[] = {1, 1, 2, 2, 3, 4, 4, 5, 5};
+		int array2[] = {1, 1, 2, 2, 4, 4, 5, 5, 6};
 
-        int first = findNoDuplicateNumber(array);
-        System.out.println("不重复的数字在最前面的情况是="+first);
+		int first = findNoDuplicateNumber(array);
+		System.out.println("不重复的数字在最前面的情况是=" + first);
 
 
-        int second = findNoDuplicateNumber(array1);
-        System.out.println("不重复的数字在中间的情况是="+second);
+		int second = findNoDuplicateNumber(array1);
+		System.out.println("不重复的数字在中间的情况是=" + second);
 
-        int third = findNoDuplicateNumber(array2);
-        System.out.println("不重复的数字在最后面的情况是="+third);
-
-    }
+		int third = findNoDuplicateNumber(array2);
+		System.out.println("不重复的数字在最后面的情况是=" + third);
+	}
 
 }
